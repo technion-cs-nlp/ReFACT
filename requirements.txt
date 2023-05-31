@@ -1,0 +1,11 @@
+numpy
+tqdm
+torch
+datasets
+transformers
+pandas
+matplotlib
+diffusers
+open_clip_torch
+pillow
+wandb

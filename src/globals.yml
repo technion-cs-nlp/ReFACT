@@ -1,0 +1,14 @@
+---
+  # Result files
+  RESULTS_DIR: "./src/results"
+
+  # Data files
+  DATA_DIR: "./src/data"
+  STATS_DIR: "./src/data/stats"
+  KV_DIR: "/share/projects/rewriting-knowledge/kvs"
+  
+  # Hyperparameters
+  HPARAMS_DIR: "./src/hparams"
+
+  # Remote URLs
+  REMOTE_ROOT_URL: ""
