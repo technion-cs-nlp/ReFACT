@@ -1,5 +1,7 @@
 # ReFACT: Updating Text-to-Image Models by Editing the Text Encoder
 
+[Project website](https://technion-cs-nlp.github.io/ReFACT/) | [Paper (Arxiv)](https://arxiv.org/abs/2306.00738)
+
 <img style="witdh: 100%;" src="images/examples.png">
 
 ##  Abstract
