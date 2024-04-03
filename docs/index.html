@@ -140,7 +140,10 @@
           We obtain the representation of the target by passing it through the respective frozen CLIP encoder and taking the output at the [EOS] token.
           Then, we compute a vector v<sup>*</sup> that, when inserted in a specific layer, will reduce the distance between the edit prompt representation and the target representation,
           resulting in the insertion of the edited fact into the model.</p>
-            <hr>
+            <br><br>
+			 <img src="./images/more_examples.png" class="center-block" alt="Examples of edits using ReFaCT" width="100%">
+			 <br><br>
+			<hr>
       <h3 style="font-family: verdana;">Generalization and Specificity</h3>
       <p style="font-size:16px;font-family: verdana;line-height: 1.6;" class="text-left">
           ReFACT is able to generalize to closely related prompts. For instance, after editing “Canada’s Prime Minister” to be Beyonce,
@@ -150,6 +153,18 @@
             <p style="font-size:16px;font-family: verdana;line-height: 1.6;" class="text-left">ReFACT also preserves unrelated concepts.
                 For example, when editing "A lamp" to "A lava lamp", the model is still able to generate an image of a lightbulb.</p>
             <img src="./images/specificity.png" class="center-block" alt="ReFACT is does not affect unrelated prompts" width="100%">
+			
+		<hr>
+		<h3 style="font-family: verdana;">Citation</h3>
+		<pre style="text-align: left; background-color:#E1E1E1;"><code>
+  @article{arad2023refact,
+	  title={Refact: Updating text-to-image models by editing the text encoder},
+	  author={Arad, Dana and Orgad, Hadas and Belinkov, Yonatan},
+	  journal={arXiv preprint arXiv:2306.00738},
+	  year={2023}
+	}
+</code></pre>
+		
         </div>
 
     </div>
